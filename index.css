@@ -47,6 +47,7 @@ header {
     margin-bottom: 100px;
     padding: 0 5% 0 5%;
     background-color: lightsteelblue;
+    display: none;
 }
 
 .container1 .aboutBox {
@@ -56,12 +57,13 @@ header {
     margin: 1rem auto 4rem auto;
     margin-bottom: 100px;
     padding: 0 5% 0 5%;
-    background-color: lightsteelblue
+    background-color: lightsteelblue;
+    display: none;
 }
 
 .container1 .contactBox p {
-    background-color: skyblue;
-    border-bottom: 2px solid black;
+    background-color: white;
+    border: 2px solid black;
     line-height: 1.5rem;
 }
 
@@ -75,6 +77,22 @@ header {
     border-left: 10px;
 }
 
-.portfolio {
+.portfolioIntro {
+    display: flex;
+    flex-flow: row wrap;
+    width: 70%;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+}
 
+.portfolioIntro h4 {
+    border: 1.5px dotted purple;
+    width: 100%;
+    background-color:rgb(222, 222, 222);
+    color: black;
+}
+
+.portfolioIntro p {
+    
 }
