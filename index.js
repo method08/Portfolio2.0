@@ -5,6 +5,8 @@ let contactBox = document.querySelector(".contactBox");
 let portfolioBox = document.querySelector(".portfolioBox");
 let aboutBox = document.querySelector(".aboutBox");
 
+// with more buttons, I can set a function pushButton() and a function releaseAllButtons
+
 const showContact = () => {
     contactBox.style.display = 'block';
     portfolioBox.style.display = 'none';

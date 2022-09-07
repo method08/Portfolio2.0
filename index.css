@@ -77,6 +77,15 @@ header {
     border-left: 10px;
 }
 
+.portfolioBox {
+    margin-top: 2rem;
+    background-color: lightsteelblue;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px dotted black;
+}
+
 .portfolioIntro {
     display: flex;
     flex-flow: row wrap;
@@ -84,15 +93,57 @@ header {
     justify-content: center;
     margin: 0 auto;
     text-align: center;
+    width: 24rem;
+    background-color: lightsteelblue;
 }
 
 .portfolioIntro h4 {
-    border: 1.5px dotted purple;
     width: 100%;
-    background-color:rgb(222, 222, 222);
-    color: black;
+    color: darkblue;
+    line-height: 1.5rem;
+    background-color: white;
+    border: 1.5px solid black;
+    border-right: 10px;
+    border-left: 10px;
 }
 
 .portfolioIntro p {
-    
+    margin: 0 auto;
+}
+
+.portfolioSelector {
+    background-color: lightsteelblue;
+    color: black;
+    width: 24rem;
+    height: auto;
+    border: 1px solid black;
+    margin: 4rem auto;
+    margin-top: 3rem;
+    background-color: skyblue;
+}
+.portfolioSelector h5 {
+    color: purple;
+    font-size: 1rem;
+    background-color: greenyellow;
+    margin-top: 0;
+    padding: .3rem;
+    font-style: normal;
+}
+.portfolioSelector p {
+    background-color: greenyellow;
+    border-bottom: 3px solid black;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    cursor: pointer;
+    margin: 1rem;
+    padding: .3rem;
+}
+.portfolioSelector p:hover {
+    color: maroon;
+}
+.contentDescription {
+    color: grey;
+    font-style: italic;
+    font-size: 1rem;
+    font-weight: normal;
 }
