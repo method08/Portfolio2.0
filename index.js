@@ -26,8 +26,8 @@ const showContact = () => {
 
 const showPortfolio = () => {
     contactBox.style.display = 'none';
-    portfolioBox.style.display = 'none';
-    aboutBox.style.display = 'block';
+    portfolioBox.style.display = 'block';
+    aboutBox.style.display = 'none';
     portfolioButton.style.backgroundColor = 'black';
     portfolioButton.style.color = 'greenyellow';
     portfolioButton.style.border = '1px solid greenyellow';
@@ -45,8 +45,8 @@ const showPortfolio = () => {
 
 const showAbout = () => {
     contactBox.style.display = 'none';
-    portfolioBox.style.display = 'block';
-    aboutBox.style.display = 'none';
+    portfolioBox.style.display = 'none';
+    aboutBox.style.display = 'block';
     aboutButton.style.backgroundColor = 'black';
     aboutButton.style.color = 'greenyellow';
     aboutButton.style.border = '1px solid greenyellow';
