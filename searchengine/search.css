@@ -1,0 +1,89 @@
+html {
+    font-family: Georgia, serif;
+}
+
+header {
+    color: purple;
+    background-color: rgb(222, 222, 222);
+    text-align: center;
+    padding: 0;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    margin: 1rem 0 1rem 0;
+}
+
+.intro {
+    text-align: center;
+    background-color: lightgreen;
+    color: black;
+    padding: .5rem 0 .5rem 0;
+    margin: .5rem 2rem .5rem 2rem;
+}
+
+.container1, .filters, .store {
+    border: 1px solid black;
+}
+.colors h3, .shapes h3 {
+    background-color: black;
+    color: lightgreen;
+    line-height: 1.5rem;
+    border-top:1px solid rgb(222, 222, 222);
+    border-bottom: 1px solid rgb(222, 222, 222);
+    margin-bottom: 5px;
+}
+
+.container1 {
+    display: flex;
+    flex-flow: col wrap;
+    justify-content: space-between;
+}
+
+.filters {
+    width: 15%;
+    text-align: center;
+}
+.filters p {
+    background-color: lightgreen;
+    color: black;
+    flex: 0 1 50px;
+    border-top: 1px solid black;
+    border-bottom: 5px solid black;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+    margin: 2px;
+    padding: 1rem;
+    min-width: 4rem;
+}
+
+.store {
+    width: 85%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+.store div {
+    margin: 4rem;
+}
+
+.red {
+    background-color: red;
+}
+.blue {
+    background-color: blue;
+}
+.orange {
+    background-color: orange;
+}
+.square {
+    width: 20px;
+    height: 20px;
+}
+.rectangle {
+    width: 20px;
+    height: 10px;
+}
+.circle {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+}

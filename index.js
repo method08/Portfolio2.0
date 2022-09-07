@@ -67,3 +67,11 @@ const showAbout = () => {
 contactButton.onclick = showContact;
 aboutButton.onclick = showAbout;
 portfolioButton.onclick = showPortfolio;
+
+let projectButton1 = document.querySelector('.projectButton1');
+
+const project1 = () => {
+    location.href = "file:///C:/Users/Dan/Desktop/Coding/projects/GitHub/Portfolio2.0/searchengine/search.html";
+};
+
+projectButton1.onclick = project1;
