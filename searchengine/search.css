@@ -45,7 +45,7 @@ header {
 .filters p {
     background-color: lightgreen;
     color: black;
-    flex: 0 1 50px;
+    flex: 1 1 50px;
     border-top: 1px solid black;
     border-bottom: 5px solid black;
     border-right: 2px solid black;
@@ -53,6 +53,11 @@ header {
     margin: 2px;
     padding: 1rem;
     min-width: 4rem;
+    cursor: pointer;
+}
+
+input {
+    display:none;
 }
 
 .store {
@@ -86,4 +91,8 @@ header {
     height: 20px;
     width: 20px;
     border-radius: 50%;
+}
+
+.red:hover, .blue:hover, .orange:hover, .redFilter:hover {
+    cursor: pointer;
 }
